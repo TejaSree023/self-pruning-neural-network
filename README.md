@@ -25,7 +25,7 @@ Total Loss = CrossEntropyLoss + λ × SparsityLoss
 | ------ | ------------- | ------------ |
 | 1e-4   | 0.49          | 9.95         |
 | 5e-4   | 0.48          | 9.96         |
-| 1e-3   | 0.46          | 10.00        |
+| 1e-3   | 0.46          | 9.98        |
 
 ## Insights
 
@@ -38,10 +38,9 @@ Total Loss = CrossEntropyLoss + λ × SparsityLoss
 * PyTorch
 
 ## How to Run
-
-```bash
-python main.py
-```
+Google Colab 
+Open the notebook (.ipynb)
+Run all cells sequentially
 
 ## Output
 
